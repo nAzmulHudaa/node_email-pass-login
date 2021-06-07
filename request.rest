@@ -1,0 +1,21 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+content-Type: application/json
+
+{
+    "name":"Rimon",
+    "password":"password"
+}
+
+###
+
+POST http://localhost:3000/users/login
+content-Type: application/json
+
+{
+    "name":"Rimon",
+    "password":"password"
+}
